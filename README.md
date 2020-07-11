@@ -18,8 +18,8 @@ Send payment:
 const paymentData = {
     email_address: 'Payer email', 
     payersName: 'Payer name', 
-    currency_code: 'currency',
-    amount: 'price',
+    currency_code: 'currency', // Default - USD
+    amount: 'price', // Default - 1
 };
 paypal.sendPayment(paymentData)
     .then(data => {
