@@ -1,11 +1,14 @@
 {
-  "name": "paypalsdk",
-  "version": "1.0.0",
+  "name": "w-paypal",
+  "version": "1.0.1",
   "description": "minimum paypal SDK",
   "main": "index.js",
   "keywords": ["paypal"],
   "author": "Alexej Bronshtein",
   "license": "ISC",
+  "engines": {
+    "node": ">=6.0.0"
+  },
   "dependencies": {
     "axios": "^0.19.2"
   }
